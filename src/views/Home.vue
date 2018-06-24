@@ -1,8 +1,12 @@
 <template>
-  <div class="home">
-    <h1>Bolão da copa 2018</h1>
-    <router-link to="/player">Jogador</router-link>
-    <router-link to="/admin">Administrador</router-link>
+  <div>
+    <v-layout row>
+      <v-flex xs12>
+        <h1>
+          Bolão da copa 2018
+        </h1>
+      </v-flex>
+    </v-layout>
   </div>
 </template>
 
